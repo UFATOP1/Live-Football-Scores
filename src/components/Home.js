@@ -14,17 +14,17 @@ const Home = () => {
       </div>
       <ul className="list-unstyled container">
         <li className="media">
-          <img src={teamImage} className="mr-3 team-image" alt="football kit" />
+          <div className="img-container"><img src={teamImage} className="mr-3 team-image" alt="football kit" /></div>
           <div className="media-body">
             <h5 className="mt-0 mb-1">Real Life Football Results</h5>
-            See upcoming games, filter by team, and see all this season&apos;s Premier League results.
+            <p>See upcoming games, filter by team, and see all this season&apos;s Premier League results.</p>
           </div>
         </li>
         <li className="media">
-          <img src={ballImage} className="mr-3 team-image" alt="football" />
+          <div className="img-container"><img src={ballImage} className="mr-3 team-image" alt="football" /></div>
           <div className="media-body">
             <h5 className="mt-0 mb-1">Follow Your Favourite Team</h5>
-            Pick your favourite Premier League team and see all their results and fixtures in one table.
+            <p>Pick your favourite Premier League team and see all their results and fixtures in one table.</p>
           </div>
         </li>
       </ul>
