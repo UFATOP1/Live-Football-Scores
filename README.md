@@ -18,3 +18,6 @@ To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`,
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f572aae-1272-4671-8bfd-b3e719a7cd5c/deploy-status)](https://app.netlify.com/sites/pl-matches/deploys)

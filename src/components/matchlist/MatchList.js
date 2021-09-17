@@ -11,7 +11,7 @@ const MatchList = () => {
   useEffect(() => {
     const getAllMatches = async () => {
       try {
-        const { data } = await axios.get('http://api.football-data.org/v2/competitions/PL/matches', {
+        const { data } = await axios.get('https://api.football-data.org/v2/competitions/PL/matches', {
           headers: {
             'X-Auth-Token': 'cbca71a154e1422080a1731a6afc597e',
             'content-type': 'application/json',
@@ -25,7 +25,7 @@ const MatchList = () => {
     getAllMatches()
     const getTeams = async () => {
       try {
-        const { data } = await axios.get('http://api.football-data.org/v2/competitions/PL/teams', {
+        const { data } = await axios.get('https://api.football-data.org/v2/competitions/PL/teams', {
           headers: {
             'X-Auth-Token': 'cbca71a154e1422080a1731a6afc597e',
             'content-type': 'application/json',
