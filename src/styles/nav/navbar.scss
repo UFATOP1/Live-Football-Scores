@@ -7,16 +7,14 @@
     color: $text-color;
       img {
         margin-right: 5px;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
       }
       h3 {
         margin: 0;
       }
     &:hover {
       color: $text-color;
-    }
-  }
-  ul {
-    li {
     }
   }
 }

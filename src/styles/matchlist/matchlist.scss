@@ -7,7 +7,7 @@
   .match {
     background: white;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px 10px;
     margin-top: 10px;
     -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -38,17 +38,17 @@
 
 @media all and (min-width: 300px) {
   .score { font-size: 0.6em; }
-  .team-name { font-size: 0 .8em; }
+  .team-name { font-size: 0.8em; }
 }
 
 @media all and (min-width: 400px) {  
   .score { font-size: 0.8em; }
-  .team-name { font-size: 1.2em; }
+  .team-name { font-size: 1.0em; }
 }
 
 @media all and (min-width: 600px) {  
   .score {
-    font-size: 0.6em; 
+    font-size: 0.5em; 
   }
   .team-name {
     font-size: 1.0em;
@@ -56,14 +56,14 @@
 }
 
 @media all and (min-width: 700px) {  
-  .score { font-size: 1.4em;  } 
+  .score { font-size: 0.5em;  } 
   .team-name { font-size: 1.6em; }
 }
 @media all and (min-width: 800px) {
   .score {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }  
-  .score { font-size: 1.0em;  
+  .score { font-size: 0.8em;  
   }
   .team-name { font-size: 1.6em; }
 }

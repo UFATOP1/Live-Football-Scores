@@ -12,9 +12,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $main-color;
+}
+
 #root {
   background-color: $main-color;
+  position: absolute;
   min-height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .site-wrapper {
@@ -25,6 +32,7 @@
 .btn {
   background-color: $highlight-color;
   border-color: $highlight-color;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   color: white;
   &:hover {
     background-color: $highlight-color;

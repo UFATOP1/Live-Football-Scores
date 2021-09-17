@@ -2,7 +2,7 @@
 
 ## Using NPM
 
-`yarn start` or `yarn dev`  to run the development server
+`yarn start` or `yarn dev` to run the development server
 
 `yarn build` to create a build directory
 
