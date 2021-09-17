@@ -1,0 +1,22 @@
+.navbar {
+  padding-bottom: 10px;
+  background-color: $main-color;
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: $text-color;
+      img {
+        margin-right: 5px;
+      }
+      h3 {
+        margin: 0;
+      }
+    &:hover {
+      color: $text-color;
+    }
+  }
+  ul {
+    li {
+    }
+  }
+}
