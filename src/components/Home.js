@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import teamImage from 'https://i.pinimg.com/originals/c4/25/07/c425074f27ffd9269a74f147a0a9b833.jpg'
+import teamImage from '../images/gril.jpeg'
 import ballImage from '../images/football.png'
 
 const Home = () => {
