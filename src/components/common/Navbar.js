@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md navbar-dark container justify-content-between">
       <Link className="navbar-brand" to="/">
         <img src={football} width="30" height="30" alt="" />
-        <h3>LiveScores</h3>
+        <h3>UFAX FOOTBALL</h3>
       </Link>
       <ul className="navbar-nav">
         <li className="nav-item active">
