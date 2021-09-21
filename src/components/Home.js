@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import teamImage from '../images/gril.jpeg'
+import teamImage from '../images/teamImage.png'
 import ballImage from '../images/football.png'
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <li className="media">
           <div className="img-container"><img src={teamImage} className="mr-3 team-image" alt="football kit" /></div>
           <div className="media-body">
-            <h5 className="mt-0 mb-1">Sexy Life Football</h5>
+            <h5 className="mt-0 mb-1">. Sexy Life Football</h5>
             <p>See upcoming Sexy Gril, filter for you all this season&apos;s Premier League results.</p>
           </div>
         </li>
