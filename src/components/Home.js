@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import teamImage from '../images/kit.png'
+import teamImage from 'https://i.pinimg.com/originals/c4/25/07/c425074f27ffd9269a74f147a0a9b833.jpg'
 import ballImage from '../images/football.png'
 
 const Home = () => {
@@ -8,23 +8,23 @@ const Home = () => {
   return (
     <>
       <div className="container center mb-5 mt-3">
-        <h1 className="display-1">Live Football Scores</h1>
-        <p className="lead">Live scores and upcoming matches</p>
-        <Link to="/matches/" className="btn btn-success">See All Matches</Link>
+        <h1 className="display-1">UFAX FOOTBALL fixtures</h1>
+        <p className="lead">fixtures today and upcoming matches</p>
+        <Link to="/matches/" className="btn btn-success">ตารางการแข่งขัน</Link>
       </div>
       <ul className="list-unstyled container">
         <li className="media">
           <div className="img-container"><img src={teamImage} className="mr-3 team-image" alt="football kit" /></div>
           <div className="media-body">
-            <h5 className="mt-0 mb-1">Real Life Football Results</h5>
-            <p>See upcoming games, filter by team, and see all this season&apos;s Premier League results.</p>
+            <h5 className="mt-0 mb-1">Sexy Life Football</h5>
+            <p>See upcoming Sexy Gril, filter for you all this season&apos;s Premier League results.</p>
           </div>
         </li>
         <li className="media">
           <div className="img-container"><img src={ballImage} className="mr-3 team-image" alt="football" /></div>
           <div className="media-body">
             <h5 className="mt-0 mb-1">Follow Your Favourite Team</h5>
-            <p>Pick your favourite Premier League team and see all their results and fixtures in one table.</p>
+            <p>เลือกทีมพรีเมียร์ลีกที่คุณชื่นชอบและดูผลการแข่งขันและโปรแกรมการแข่งขันทั้งหมดในตารางเดียว.</p>
           </div>
         </li>
       </ul>
